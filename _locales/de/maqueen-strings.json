@@ -104,8 +104,5 @@
 
   "Maqueen_V5.BleGetCmd|block": "Bluetooth-Befehl abrufen",
 
-  "Maqueen_V5.BlecallbackUser|block": "wenn Bluetooth-Befehl empfangen wird",
-  
-  "Maqueen_V5.Dir.CCW|block": "vorwärts",
-  "Maqueen_V5.Dir.CW|block": "rückwärts"
+  "Maqueen_V5.BlecallbackUser|block": "wenn Bluetooth-Befehl empfangen wird"
 }
