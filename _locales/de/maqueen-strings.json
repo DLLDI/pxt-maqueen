@@ -1,4 +1,4 @@
-/*{
+{
   "PingUnit.Centimeters|block": "cm",
   "PingUnit.MicroSeconds|block": "μs",
   "maqueen.Dir.CCW|block": "vorwärts",
@@ -89,4 +89,4 @@
   "Maqueen_V5.BleCmdDefault|block": "Maqueen V5 Standard-Bluetoothsteuerung %cmd",
   "Maqueen_V5.BleGetCmd|block": "Bluetooth-Befehl abrufen",
   "Maqueen_V5.BlecallbackUser|block": "Wenn ein Bluetooth-Befehl empfangen wird"
-}*/
+}
