@@ -23,7 +23,7 @@
   "maqueen.motorStop|block": "Motor stoppen|%motors",
   "maqueen.readPatrol|block": "Sensor lesen|%patrol",
   "maqueen.Ultrasonic|block": "Abstand des Ultraschallsensors lesen (cm)",
-  "maqueen.writeLED|block": "%ledswitch|LED|%led",
+  "maqueen.writeLED|block": "%ledswitch |LED |%led",
   "Maqueen_V5.BatteryType.Alkaline|block": "Alkalibatterie",
   "Maqueen_V5.BatteryType.Lithium|block": "Lithiumbatterie",
   "Maqueen_V5.CarLightColors.Red|block": "Rot",
