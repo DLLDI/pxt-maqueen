@@ -131,7 +131,7 @@ namespace maqueen {
      * Read ultrasonic sensor.
      */
 
-    //% blockId=ultrasonic_sensor block="read ultrasonic sensor in cm"
+    //% block-Id=ultrasonic_sensor block="read ultrasonic sensor in cm"
     //% weight=95
     export function Ultrasonic(): number {
         let data;
@@ -192,7 +192,7 @@ namespace maqueen {
      */
 
     //% weight=90
-    //% blockId=motor_MotorRun block="motor|%index|move|%Dir|at speed|%speed"
+    //% block-Id=motor_MotorRun block="motor|%index|move|%Dir|at speed|%speed"
     //% speed.min=0 speed.max=255
     //% index.fieldEditor="gridpicker" index.fieldOptions.columns=2
     //% direction.fieldEditor="gridpicker" direction.fieldOptions.columns=2
@@ -226,7 +226,7 @@ namespace maqueen {
      */
 
     //% weight=20
-    //% blockId=motor_motorStop block="motor |%motors stop"
+    //% block-Id=motor_motorStop block="motor |%motors stop"
     //% motors.fieldEditor="gridpicker" motors.fieldOptions.columns=2
     export function motorStop(motors: Motors): void {
         let buf = pins.createBuffer(3);
@@ -260,7 +260,7 @@ namespace maqueen {
      */
 
     //% weight=20
-    //% blockId=read_Patrol block="read |%patrol line tracking sensor"
+    //% block-Id=read_Patrol block="read |%patrol line tracking sensor"
     //% patrol.fieldEditor="gridpicker" patrol.fieldOptions.columns=2
     export function readPatrol(patrol: Patrol): number {
         if (patrol == Patrol.PatrolLeft) {
@@ -279,7 +279,7 @@ namespace maqueen {
      */
 
     //% weight=20
-    //% blockId=writeLED block="LEDlight |%led turn |%ledswitch"
+    //% block-Id=writeLED block="LEDlight |%led turn |%ledswitch"
     //% led.fieldEditor="gridpicker" led.fieldOptions.columns=2
     //% ledswitch.fieldEditor="gridpicker" ledswitch.fieldOptions.columns=2
     export function writeLED(led: LED, ledswitch: LEDswitch): void {
@@ -299,7 +299,7 @@ namespace maqueen {
      */
 
     //% weight=90
-    //% blockId=servo_ServoRun block="servo|%index|angle|%angle"
+    //% block-Id=servo_ServoRun block="servo|%index|angle|%angle"
     //% angle.min=0 angle.max=180
     //% index.fieldEditor="gridpicker" index.fieldOptions.columns=2
     export function servoRun(index: Servos, angle: number): void {
@@ -320,7 +320,7 @@ namespace maqueen {
     * @param vi Voltage
     */
     //% weight=2
-    //% blockId=kb_event block="on|%value line tracking sensor|%vi"
+    //% block-Id=kb_event block="on|%value line tracking sensor|%vi"
     export function ltEvent(value: Patrol1, vi: Voltage, a: Action) {
         let state = value + vi;
         serial.writeNumber(state)
