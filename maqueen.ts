@@ -357,7 +357,7 @@ namespace Maqueen_V5 {
     /**
      *  Init I2C until success
     */
-    //% weight=255
+    //% weight=1
     //% blockId=I2CInit block="initialize via I2C until success"
     //%group="Maqueen_v5"
     export function I2CInit(): void {
@@ -764,7 +764,7 @@ namespace Maqueen_V5 {
      */
     //% block="Read battery Values %type"
     //% weight=16
-    //% group="Maqueen_v51"
+    //% group="Maqueen_v5"
     export function getBatteryData(type: BatteryType = BatteryType.Alkaline): number {
         let allBuffer = pins.createBuffer(2);
         allBuffer[0]=BATTERY_SET;
