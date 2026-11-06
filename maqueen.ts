@@ -404,7 +404,7 @@ namespace Maqueen_V5 {
      * Start or close the line patrol
      * @param patrol to patrol
      */
-    //% weight=253
+    //% weight=220
     //% blockId=patrolling block="Line patrolling| %Patrolling"
     //% group="Maqueen_v5"
     export function patrolling(patrol: Patrolling){
@@ -437,7 +437,7 @@ namespace Maqueen_V5 {
      * @param direction Motor direction selection enumeration
      * @param speed Motor speed control, eg:100
      */
-    //% weight=252
+    //% weight=250
     //% blockId= V5_motor block="motor|%index|move|%Dir|at speed|%speed"
     //% speed.min=0 speed.max=255
     //% index.fieldEditor="gridpicker" index.fieldOptions.columns=2
@@ -493,7 +493,7 @@ namespace Maqueen_V5 {
      */
 
     //% blockId=V5_ultrasonic_sensor block="read ultrasonic sensor"
-    //% weight=95
+    //% weight=230
     //% group="Maqueen_v5"
     export function Ultrasonic(): number {
         let data;
