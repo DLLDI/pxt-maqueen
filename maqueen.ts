@@ -404,7 +404,7 @@ namespace Maqueen_V5 {
      * Start or close the line patrol
      * @param patrol to patrol
      */
-    //% weight=220
+    //% weight=-1 //was 220
     //% blockId=patrolling block="Line patrolling| %Patrolling"
     //% group="Maqueen_v5"
     export function patrolling(patrol: Patrolling){
@@ -471,7 +471,7 @@ namespace Maqueen_V5 {
      * Read the version number.
      */
 
-    //% weight=1
+    //% weight=-1
     //% blockId=readVersion block="get product information"
     //% group="Maqueen_v5"
     export function readVersion(): string {
@@ -601,7 +601,7 @@ namespace Maqueen_V5 {
      * The ADC data of the patrol sensor is obtained
      * @param patrol Select the inspection sensor enumeration
      */
-    //% weight=21
+    //% weight=-1 // was 21
     //% blockId= readPatrolData block="read line sensor |%Patrol  ADC data"
     //% patrol.fieldEditor="gridpicker" patrol.fieldOptions.columns=2
     //% group="Maqueen_v5"
