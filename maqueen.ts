@@ -637,7 +637,7 @@ namespace Maqueen_V5 {
      * @param eline Select the inspection sensor enumeration
      */
 
-    //% weight=90
+    //% weight=-1 //was 90
     //% blockId=V5_Servo block="servo|%index|angle|%angle"
     //% angle.min=0 angle.max=180
     //% index.fieldEditor="gridpicker" index.fieldOptions.columns=2
@@ -743,7 +743,7 @@ namespace Maqueen_V5 {
      * Reading light intensity(0-1023)
      */
     //% block="Read Light Values %type"
-    //% weight=16
+    //% weight=-1 //was 16
     //% group="Maqueen_v5"
     export function readLightIntensity(type: DirectionType2): number {
         let allBuffer = pins.createBuffer(2);
@@ -763,7 +763,7 @@ namespace Maqueen_V5 {
      * @param type Battery type
      */
     //% block="Read battery Values %type"
-    //% weight=16
+    //% weight=-1 // was 16
     //% group="Maqueen_v5"
     export function getBatteryData(type: BatteryType = BatteryType.Alkaline): number {
         let allBuffer = pins.createBuffer(2);
