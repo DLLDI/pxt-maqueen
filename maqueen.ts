@@ -357,7 +357,7 @@ namespace Maqueen_V5 {
     /**
      *  Init I2C until success
     */
-    //% weight=1
+    //% weight=-1
     //% blockId=I2CInit block="initialize via I2C until success"
     //%group="Maqueen_v5"
     export function I2CInit(): void {
